@@ -1,0 +1,19 @@
+{
+  "name": "云轨导航",
+  "url": "https://yunguidaohang.com/",
+  "language": "zh-CN",
+  "lastModified": "2026-10-23",
+  "description": "中文网络工具与机场服务独立评测、排行、教程及问题库。",
+  "publisher": "云轨导航编辑团队",
+  "methodology": "https://yunguidaohang.com/methodology.html",
+  "citationPolicy": "https://yunguidaohang.com/resources.html",
+  "resources": {
+    "reviews": "https://yunguidaohang.com/airports.html",
+    "rankings": "https://yunguidaohang.com/ranking.html",
+    "guides": "https://yunguidaohang.com/knowledge.html",
+    "faq": "https://yunguidaohang.com/faq.html",
+    "rss": "https://yunguidaohang.com/feed.xml",
+    "sitemap": "https://yunguidaohang.com/sitemap.xml"
+  },
+  "topics": ["机场测评", "IPLC", "IEPL", "代理客户端", "网络稳定性测试", "流媒体解锁", "AI 服务可用性"]
+}

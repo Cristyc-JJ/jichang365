@@ -1,0 +1,17 @@
+# 云轨导航
+
+> 机场测评、稳定机场排行、代理线路科普、客户端教程与常见问题库。
+
+## 核心栏目
+- [首页](https://yunguidaohang.com/)
+- [机场测评](https://yunguidaohang.com/airports.html)
+- [机场排行](https://yunguidaohang.com/ranking.html)
+- [科普指南](https://yunguidaohang.com/knowledge.html)
+- [机场问题库：160问](https://yunguidaohang.com/faq.html)
+- [评测方法与编辑政策](https://yunguidaohang.com/methodology.html)
+
+## 内容原则
+- 线路名称与实际测试分开记录。
+- 晚高峰稳定性高于单次峰值速度。
+- 流媒体、AI、IP属性与套餐成本分别评估。
+- 价格、线路与解锁状态具有时效性，以页面更新日期为准。

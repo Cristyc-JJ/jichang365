@@ -1,100 +1,22 @@
 User-agent: *
 Allow: /
+Disallow: /template.txt
+Disallow: /template_premium.txt
+Disallow: /zerog_article_template.html
 
-# Domestic AI Models & Search Spiders (鍥藉唴 AI 澶фā鍨嬪強鎼滅储寮曟搸)
-# 瀛楄妭璺冲姩 / 璞嗗寘 AI
-User-agent: Bytespider
-User-agent: Bytespider-AI
-Allow: /
-
-# 鐧惧害 / 鏂囧績涓€瑷€ & 鎼滅储寮曟搸
-User-agent: Baiduspider
-User-agent: Baiduspider-render
-User-agent: Baiduspider-image
-User-agent: Baiduspider-video
-Allow: /
-
-# 闃块噷 / 閫氫箟鍗冮棶 & 澶稿厠 & 绁為┈鎼滅储
-User-agent: YisouSpider
-User-agent: ShenmaSpider
-Allow: /
-
-# 鎼滅嫍鎼滅储 (鑵捐 / 寰俊 AI 鎼滅储搴曞眰)
-User-agent: Sogou web spider
-User-agent: Sogou inst spider
-Allow: /
-
-# 360 鏅鸿剳 / 濂囪檸 360 鎼滅储
-User-agent: 360Spider
-Allow: /
-
-# 娣卞害姹傜储 / DeepSeek AI
-User-agent: DeepSeek-Bot
-User-agent: DeepSeek
-Allow: /
-
-# 鏈堜箣鏆楅潰 / Kimi AI
-User-agent: Moonshot-Bot
-User-agent: Kimi-Bot
-Allow: /
-
-# 鏅鸿氨 AI / 鏅鸿氨娓呰█ (GLM-4)
-User-agent: Zhipu-AI
-User-agent: GLM-Bot
-Allow: /
-
-# 鐧惧窛鏅鸿兘 / 闆朵竴涓囩墿 / 鍏跺畠鍥藉唴澶фā鍨?Agent
-User-agent: Baichuan-Bot
-User-agent: Yi-Bot
-User-agent: MiniMax-Bot
-Allow: /
-
-# Global AI Models & Search Spiders (鍥藉涓绘祦 AI 澶фā鍨嬪強鎼滅储寮曟搸)
-# OpenAI / ChatGPT / SearchGPT
 User-agent: GPTBot
-User-agent: ChatGPT-User
+Allow: /
 User-agent: OAI-SearchBot
 Allow: /
-
-# Anthropic / Claude 3.5
-User-agent: ClaudeBot
-User-agent: Claude-Web
+User-agent: ChatGPT-User
 Allow: /
-
-# Google / Gemini & Search
-User-agent: Googlebot
-User-agent: Googlebot-Image
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
 User-agent: Google-Extended
 Allow: /
-
-# Perplexity AI
-User-agent: PerplexityBot
-User-agent: Perplexity-Bot
+User-agent: Bytespider
 Allow: /
 
-# Microsoft / Bing & Copilot
-User-agent: Bingbot
-User-agent: Microsoft-Bot
-User-agent: BingPreview
-Allow: /
-
-# Apple / Apple Intelligence
-User-agent: Applebot
-User-agent: Applebot-Extended
-Allow: /
-
-# xAI / Grok
-User-agent: GrokBot
-User-agent: xAIBot
-Allow: /
-
-# You.com / DuckDuckGo / Amazon / Meta AI
-User-agent: YouBot
-User-agent: DuckDuckGoBot
-User-agent: Amazonbot
-User-agent: Meta-ExternalAgent
-User-agent: FacebookExternalHit
-Allow: /
-
-Sitemap: https://jichang365.com/sitemap.xml
 Sitemap: https://yunguidaohang.com/sitemap.xml
