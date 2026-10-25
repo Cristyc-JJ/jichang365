@@ -2721,17 +2721,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 40px auto 0;
 }
 .faq-item {
-  background: var(--bg-secondary);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
-  overflow: hidden;
+  border-bottom: 1px solid #eef2f7;
+  background: transparent;
   transition: all var(--transition-fast);
 }
-.faq-item:hover {
-  border-color: var(--accent-secondary);
+.faq-item:last-child {
+  border-bottom: 0;
 }
 .faq-question {
-  padding: 20px 24px;
+  padding: 18px 24px;
   font-weight: 600;
   font-size: 1.05rem;
   color: var(--text-primary);
@@ -2751,19 +2749,17 @@ h1, h2, h3, h4, h5, h6 {
   content: '−';
 }
 .faq-answer {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
-  padding: 0 24px;
+  max-height: none;
+  overflow: visible;
+  padding: 0 24px 18px;
   color: var(--text-secondary);
   font-size: 0.95rem;
-  line-height: 1.6;
-  border-top: 0 solid var(--border-color);
+  line-height: 1.8;
 }
+.faq-item[open] .faq-answer,
 .faq-item.active .faq-answer {
-  max-height: 1000px; /* arbitrary high value for smooth transit */
-  padding: 20px 24px;
-  border-top-width: 1px;
+  max-height: none;
+  overflow: visible;
 }
 
 @media (max-width: 1024px) {
